@@ -23,3 +23,20 @@ body{
     margin: 0 auto;
     padding-bottom: 25px;
 }
+
+.font-montserrat-900{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+.font-weight-900{
+    font-weight: 900;
+}
