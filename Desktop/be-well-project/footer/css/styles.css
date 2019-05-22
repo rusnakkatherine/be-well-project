@@ -24,8 +24,6 @@ a :hover {
 
 .information {
     font-size: 12px;
-    display: flex;
-    flex-direction: row;
 }
 
 .address {
