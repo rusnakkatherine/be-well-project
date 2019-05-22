@@ -1,0 +1,25 @@
+body{
+    background-color: #2c858d;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(225, 225, 225, 0.6);
+    padding: 25px
+}
+
+.color-dark-blue{
+    color: #004056;
+}
+
+.margin-zero-auto{
+    margin: 0 auto;
+}
+
+.header-img{
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
