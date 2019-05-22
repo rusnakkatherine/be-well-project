@@ -14,6 +14,7 @@
 
 ul{
     margin-left: 255px;
+    
 }
 .nav-list{
     display: flex;
@@ -27,12 +28,13 @@ ul{
 .list{
     margin-left: 50px;
     margin-top: 50px;
+    
 } 
 
 .list:hover{
-    color: #004056;
-    border: 2px solid #004056;
-    border-radius: 10px;
+    color: #FFFFCB;
+    /* border: 2px solid #004056; */
+    /* border-radius: 10px;
     padding: 2px;
-    background-color: #FFFFCB;
+    background-color: #FFFFCB; */
 }
