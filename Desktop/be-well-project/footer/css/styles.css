@@ -4,7 +4,7 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    height: 80px;
+    height: 75px;
 }
 
 li {
@@ -22,8 +22,9 @@ a :hover {
     color: #ffffcb;
 }
 
-.information {
-    font-size: 12px;
+p {
+    font-size: 14px;
+    text-align: center;
 }
 
 .address {
