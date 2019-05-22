@@ -1,0 +1,37 @@
+.logo{
+    height: 85px;
+    margin-left: 25px;
+    margin-top: 18px;
+    background-color: #74CEB7;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.row{
+    background-color: #2C858D;
+    height: 125px;
+}
+
+ul{
+    margin-left: 255px;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.list{
+    margin-left: 50px;
+    margin-top: 50px;
+} 
+
+.list:hover{
+    color: #004056;
+    border: 2px solid white;
+    padding: 5px;
+
+}
