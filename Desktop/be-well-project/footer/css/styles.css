@@ -1,0 +1,34 @@
+/* Footer Stlyes */
+.footer {
+    background-color: #2C858D;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    color: #C9FFD5;
+    display:inline;
+}
+
+a :hover {
+    color: #ffffcb;
+}
+
+.information {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.address {
+    font-size: 11px;
+}
+
