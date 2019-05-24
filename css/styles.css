@@ -3,7 +3,7 @@
     margin-left: 25px;
     margin-top: 18px;
     background-color: #74CEB7;
-    border-radius: 15px;
+    border-radius: 105px;
     border: 3px solid #004056;
 }
 
@@ -15,26 +15,3 @@
 ul{
     margin-left: 255px;
     
-}
-.nav-list{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    color: white;
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.list{
-    margin-left: 50px;
-    margin-top: 50px;
-    
-} 
-
-.list:hover{
-    color: #FFFFCB;
-    /* border: 2px solid #004056; */
-    /* border-radius: 10px;
-    padding: 2px;
-    background-color: #FFFFCB; */
-}
