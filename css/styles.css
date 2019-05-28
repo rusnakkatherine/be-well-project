@@ -5,6 +5,9 @@ body{
 .text-align-center{
     text-align: center;
 }
+.text-align-left{
+    text-align: left;
+}
 
 .container{
     background-color: rgba(225, 225, 225, 0.6);
