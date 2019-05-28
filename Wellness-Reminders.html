@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <title>Team-one-project</title>
+</head>
+<body>
+     <div class = "container-fluid">
+        <div class="row">
+            <!-- <img src="images/umbrella.jpg" class = "logo" alt="picture of an umbrella"> -->
+            <ul class = "nav-list"  >
+                <li class= "list"><a href="index.html">Home</a></li>
+                <li class="list"><a href="Resources.html">Resources</a></li>
+                <li class="list"><a href="Wellness-Reminders.html">Wellness Reminders</a></li>
+                <li class="list"><a href="Discussion-Board.html">Discussion Board</a></li>
+            </ul>
+        </div>
+    </div>
+<br>
+
+    <div class="center">
+            <!-- <label for="set-reminder">Set a Reminders:</label><br>
+            
+            <select id="field_71849" class="select-field" name="45924[71849]" >
+                    <option value="Yes">Yes</option>
+                    <option value="No" >No</option>
+            </select> -->
+    </div>
+    <br>
+    <div class="center">
+ <!-- form control bs style -->
+        <label for="email" class="font">Enter your  email:</label>
+            <input type="email" class="form-control " id="email"
+            pattern="  " size="30" placeholder="Email-address" required>
+    </div>
+    <br>
+
+    <p class="text-center">or</p>
+    <div class="center">
+        <label for="phone" class="font">Phone Number:</label>
+        <!-- form control bs style -->
+        <input type="tel" class="form-control" id="phone" name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                placeholder="000-000-000"
+                required>
+    </div>
+
+<br>
+<div class="center">
+    <div class="menu" class="font" >
+    <!-- Selecting Morning Hours -->
+    <!-- Morning:<br> -->
+    <!-- <input type="radio"  value="Morning"> Morning:<br> -->
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Morning
+            
+    <select >
+        <option selected="selected" value="">Select Hour</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+   
+    </select>
+    <select >
+        <option selected="selected" value="">Select Minute</option>
+        <option value="00">00</option>
+        <option value="30">30</option>
+   
+    </select>
+    <select id="selAmPm">
+        <option selected="selected" value="">AM</option>
+        <!-- <option value="AM">AM</option> -->
+            <!-- <option value="PM">PM</option> -->
+    </select>
+    <div>
+        <label for="Reminder-choice">Reminders:</label>
+            <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
+            <!-- <select  > -->
+                
+            <datalist id="Reminders-list">
+                <option value="Drink Water">Drink Water</option>
+                <option value="Take your Medicines">Take your Medicines</option>
+                <option value="Eat">Eat</option>
+                <option value="Feed Family">Feed Family</option>
+                <option value="Take a 5 min walk">Take a 5 min walk</option>
+                <option value="Take a Breather">Take a Breather</option>
+                <option value="Take 30 mins for yourself">Take 30 mins for yourself</option>
+                <option value="Say something positive about your day or yourself">Say something positive about your day or yourself</option>
+                <option value="Walk your pet">Walk your pet</option>
+                <option value="You are beautiful, smart & loved">You are beautiful, smart & loved</option>
+                <option value="Other">Other</option>
+            </datalist>
+            <!-- </select> -->
+            
+    </div> 
+    
+</div>
+<br>
+<div class="menu" >
+<!-- Selecting Midday Hours -->
+<!-- Midday:<br> -->
+<!-- <input type="radio"  value="Midday"> Midday:<br> -->
+<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Midday 
+    <select >
+    <option selected="selected" value="">Select Hour</option>
+    <option value="12">12</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+   
+</select>
+<select >
+    <option selected="selected" value="">Select Minute</option>
+    <option value="00">00</option>
+    <option value="30">30</option>
+   
+</select>
+<select id="selAmPm">
+        <option selected="selected" value="">AM/PM</option>
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+    </select>
+
+    <div>
+        <label for="Reminder-choice">Reminders:</label>
+            <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
+            <!-- <select  > -->
+                
+            <datalist id="Reminders-list">
+                <option value="Drink Water">Drink Water</option>
+                <option value="Take your Medicines">Take your Medicines</option>
+                <option value="Eat">Eat</option>
+                <option value="Feed Family">Feed Family</option>
+                <option value="Take a 5 min walk">Take a 5 min walk</option>
+                <option value="Take a Breather">Take a Breather</option>
+                <option value="Take 30 mins for yourself">Take 30 mins for yourself</option>
+                <option value="Say something positive about your day or yourself">Say something positive about your day or yourself</option>
+                <option value="Walk your pet">Walk your pet</option>
+                <option value="You are beautiful, smart & loved">You are beautiful, smart & loved</option>
+                <option value="Other">Other</option>
+            </datalist>
+            <!-- </select> -->
+            
+    </div> 
+</div> <br>
+<div class="menu" >
+<!-- Selecting Night Hours -->
+<!-- Night:<br> -->
+<!-- <input type="radio"  value="Night"> Night:<br> -->
+<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Night 
+    
+    <select >
+        <option selected="selected" value="">Select Hour</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+   
+    </select>
+    <select >
+        <option selected="selected" value="">Select Minute</option>
+        <option value="00">00</option>
+        <option value="30">30</option>
+   
+    </select>
+    <select id="selAmPm">
+        <option selected="selected" value="">PM</option>
+        <!-- <option value="AM">AM</option> -->
+        <!-- <option value="PM">PM</option> -->
+    </select>
+    <div>
+        <label for="Reminder-choice">Reminders:</label>
+            <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
+            <!-- <select  > -->
+                
+            <datalist id="Reminders-list multiple">
+                <option value="Drink Water">Drink Water</option>
+                <option value="Take your Medicines">Take your Medicines</option>
+                <option value="Eat">Eat</option>
+                <option value="Feed Family">Feed Family</option>
+                <option value="Take a 5 min walk">Take a 5 min walk</option>
+                <option value="Take a Breather">Take a Breather</option>
+                <option value="Take 30 mins for yourself">Take 30 mins for yourself</option>
+                <option value="Say something positive about your day or yourself">Say something positive about your day or yourself</option>
+                <option value="Walk your pet">Walk your pet</option>
+                <option value="You are beautiful, smart & loved">You are beautiful, smart & loved</option>
+                <option value="Other">Other</option>
+            </datalist>
+            <!-- </select> -->
+            
+    </div> 
+</div>
+
+    <br>
+       
+<!-- submit button -->
+
+<div>
+        <!-- <button class="button>">Submit</button> -->
+        <button type="button" class="btn btn-success">Submit</button>
+</div>
+<br>
+<label>
+<input type="checkbox" name="acceptance-878" value="1" aria-invalid="false">
+<span class="term">I consent to receiving reminders from bewell.</span>
+
+</label>
+
+<!-- footer -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+<script src="js/script.js"></script>
+</body> 
+
+</html>

@@ -1,17 +1,88 @@
+/* Styles for header */
 
-.menu{
-    /* background-color:yellow; */
-    background-position: 0fr;
-    border:1px solid purple;
-    border-radius: 2px;
-    font-size: inherit;
-    overflow: hidden;
-    color: purple;
+body{
+    /* background-color: #2c858d; */
+    background-color: #74ceb7;
+}
+.row{
+    background-color: #2C858D;
+    height:auto;
+}
+ul{
+    margin-left: 255px;
+    
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    color-adjust: white;
+    
+}
+.list{
+    margin-left: 50px;
+    margin-top: 50px;
+    /* color:white; */
+    
+    
+} 
 
+a{
+    color:white;
+}
+
+.list a:hover{
+    color: #ffffcb;
+    /* border: 2px solid #004056; */
+    /* border-radius: 10px;
+    padding: 2px;*/
+    /* background-color: pink;  */
 }
 
 
 
+.menu{
+    /* background-color:yellow; */
+    background-position: 0fr;
+    /* border:1px solid purple; */
 
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: white;
+    
+    font-weight: 400;
+    
+
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+body{
+    font-family: 'Montserrat', sans-serif !important;;
+    color: white;
+}
+
+.font{
+    
+    font-weight: 400;
+    color: white;
+}
+
+p{
+    align-content: center;
+}
+
+ .center {
+        margin: auto;
+        width: 50%;
+        /* border: 3px solid green; */
+        /* padding: 10px; */
+  }
+
+.button{
+    
+}
 
 
