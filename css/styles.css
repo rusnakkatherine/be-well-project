@@ -1,5 +1,5 @@
 body{
-    background-color: #2c858d;
+    background-color: #74ceb7;
 }
 
 .text-align-center{
@@ -10,7 +10,8 @@ body{
 }
 
 .container{
-    background-color: rgba(225, 225, 225, 0.6);
+    background-color: rgba(225, 225, 225, 0.5);
+    /* background-image: radial-gradient( rgba(225, 225, 225, 0.6), rgba(225, 225, 225, 0.1); */
     padding: 75px
 }
 
