@@ -1,0 +1,82 @@
+/* Style Header */
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Style the searchbar */
+.search-bar input[type=text] {
+  float: left;
+  padding: 8px;
+  font-size: 16px;
+  border: 3px solid #2C858D;
+  margin: 20px;
+}
+
+/* Style the search icon */
+#search-icon {
+    background-color: #2C858D;
+    border-top: 3px solid #2C858D;
+    cursor: pointer;
+    float: left;
+    height: 27px;
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+    width: 50px;
+}
+
+#search-icon img {
+    width:40px;
+}
+
+/* Background */
+body {
+    background-color: #74CEB7;
+    padding: 8px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style Top Discussion Board Topics Box */
+.topic-box {
+    border: 3px solid #2C858D;
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
+    width: 19%;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+li:hover {
+    color: #004056;
+}
+
+.discussion-box {
+    border: 3px solid #2C858D;
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
