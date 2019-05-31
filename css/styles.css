@@ -1,8 +1,10 @@
 /* Styles for header */
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
 body{
     /* background-color: #2c858d; */
     background-color: #74ceb7;
+    font-family: 'Montserrat', sans-serif !important;;
+    color: white;
 }
 .row{
     background-color: #2C858D;
@@ -26,6 +28,8 @@ ul{
     margin-left: 50px;
     margin-top: 50px;
     /* color:white; */
+
+
     
     
 } 
@@ -55,19 +59,34 @@ a{
     color: white;
     
     font-weight: 400;
+    /* font-weight:bold; */
+    
     
 
 }
-@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
-body{
-    font-family: 'Montserrat', sans-serif !important;;
-    color: white;
-}
+.custom-select {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+
+
 
 .font{
     
-    font-weight: 400;
-    color: white;
+    font-weight: 900;
+    color: White;
 }
 
 p{
@@ -81,8 +100,24 @@ p{
         /* padding: 10px; */
   }
 
-.button{
-    
+
+.bg-color{
+    background: rgba(255, 255, 255, 0.548);
+    /* font-family: 'Montserrat', sans-serif; */
+    /* color:#FFFFCB; */
+   
+    /* box-sizing: content-box;
+    text-overflow: ellipsis;
+    vertical-align: middle; */
 }
+
+#Reminders-list{
+    background: rgba(255, 255, 255, 0.548);
+}
+
+
+
+
+
 
 
