@@ -16,15 +16,22 @@ body{
     margin: 0;
 }
 
+.side-navbar{
+    padding: 0;
+}
+
 .side-navbar ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 
 .side-navbar ul li{
     padding: 25px;
     position: relative;
     background-color:  #2C858D;
-    width: 225px;
+    width: 260px;
     border-top: 1px solid  #74CEB7;
 }
 
@@ -34,7 +41,7 @@ body{
 
 .side-navbar ul ul{
     height: 115px;
-    overflow:auto;
+    overflow: auto;
     border-top: 1px solid #74CEB7;
 }
 
@@ -42,6 +49,11 @@ body{
     color: #C9FFD5;
     text-decoration: none;
     font-size: 20px;
+    
+}
+
+.fa{
+    margin-right: 10px;
 }
 
 
