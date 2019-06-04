@@ -26,12 +26,22 @@ body{
     padding: 0;
 }
 
+h6{
+    /* color: #C9FFD5; */
+    color: #004056;
+    padding: 15px;
+}
+
+hr{
+    border-color: #74CEB7;
+}
+
 
 .side-navbar ul li{
     padding: 25px;
     position: relative;
     background-color:  #2C858D;
-    width: 260px;
+    width: 280px;
     border-top: 1px solid  #74CEB7;
 }
 
@@ -41,9 +51,10 @@ body{
 
 .side-navbar ul ul{
     height: 115px;
-    overflow: auto;
+    overflow: scroll;
     border-top: 1px solid #74CEB7;
 }
+
 
 .side-navbar ul li a{
     color: #C9FFD5;
@@ -54,6 +65,10 @@ body{
 
 .fa{
     margin-right: 10px;
+}
+
+.fa-angle-right{
+    margin-left: 10px;
 }
 
 
