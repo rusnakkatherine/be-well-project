@@ -26,54 +26,48 @@
     </div>
 <br>
 
-    <div class="center">
-            <!-- <label for="set-reminder">Set a Reminders:</label><br>
-            
-            <select id="field_71849" class="select-field" name="45924[71849]" >
-                    <option value="Yes">Yes</option>
-                    <option value="No" >No</option>
-            </select> -->
-    </div>
+
+   
     <br>
 <div class="center">
+    <p class="font-p">
+         Sign up for notifications to get control of things that matter to you.Select a method to recieve alerts,choose the alerts that matter to you.Start gaining control of your life by taking smaller steps needed for personel success.
+    </p>
     <label  class="font">Reminder Method:</label>
     
     <br>
-   
+                                 <!-- selecting email  -->
  <!-- form inline bootstrap style -->
- 
-         <!-- <label   for="email" class="font"></label> -->
-         <input type=radio name="Radios" id="" >
-            <input  class="form-inline bg-color " id="email"
+    <label   for="email" class="font"></label>
+    <input type=radio name="Radios" id="" >
+    <input  class="form-inline bg-color " id="email"
             pattern="  " size="30" placeholder="Email-address" required>
             
     
-    <!-- <br>
-
-    <p class="text-center">or</p> -->
+                                 <!-- selecting phone number -->
     
-        <label  for="phone" class="font"></label>
-        <!-- form inline bootstrap style -->
-        <input type=radio name="Radios" id=>
-         <input  class="form-inline bg-color" id="phone" name="phone"
+    <label  for="phone" class="font"></label>
+    <input type=radio name="Radios" id=>
+    <input  class="form-inline bg-color" id="phone" name="phone"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
                 placeholder="Phone-Number"
                 required> 
             
-    </div> 
-</div>
+</div> 
+
 <br>
 
-<div class="center menu font " >
+<div class="center menu font">
+                               <!-- Morning Reminders -->
     <div >
-    <label  class="font">Morning:</label>
-    <!-- Selecting Morning Hours -->
-    <!-- Morning:<br> -->
+        <label  class="font">Morning:</label>
+   
+    
     <!-- <input type="radio"  value="Morning"> Morning:<br> -->
-    <button class="btn btn-default dropdown-toggle bg-color" type="button" data-toggle="dropdown">
-        <!-- <div id="repeater"> -->
-        <div class="col-md-6 ">
-            <label for="Reminder-choice">Reminders:</label>
+
+        <div class="btn btn-default dropdown-toggle bg-color "  data-toggle="dropdown">
+            <div class="col-md-6  " >
+                <label for="Reminder-choice">Reminders:</label>
                 <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
                             <!-- <select  > -->
                                 
@@ -91,66 +85,69 @@
                         <option value="Other">Other</option>
                     </datalist>
                             
-        </div> 
-        <div class = "col-md-1   "> 
-            <select >
-                <option selected="selected" value="">Select Hour</option>
-                <option value="06">06</option>
-                <option value="07">07</option>
-                <option value="08">08</option>
-                <option value="09">09</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-            </select>
-            <select >
-                <option selected="selected" value="">Select Minute</option>
-                <option value="00">00</option>
-                <option value="30">30</option>
-   
-            </select>
-            <select id="selAmPm">
-                <option selected="selected" value="">AM</option>
-            <!-- <option value="AM">AM</option> -->
-            <!-- <option value="PM">PM</option> -->
-            </select>
- 
-        <!-- </div>  -->
+            </div> 
+            <div class = "col-md-1   "> 
+                <select >
+                    <option selected="selected" value="">Select Hour</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+                <select >
+                    <option selected="selected" value="">Select Minute</option>
+                    <option value="00">00</option>
+                    <option value="30">30</option>
+                </select>
+                <select id="selAmPm">
+                    <option selected="selected" value="">AM</option>
+                    <!-- <option value="AM">AM</option> -->
+                    <!-- <option value="PM">PM</option> -->
+                </select>
+            </div> 
+
+                       <!-- to add multiple reminders -->
+
+        <!-- <br>
+        <div >
+            <input type="button"  onclick="repeat(1,vm());"  />
+            <div id="repeater"></div>
+        </div> -->
+        </div>
     </div>
-    <input type="button"  onclick="repeat(1,vn());"  />
-    <div id="repeater"></div>
-</div>
-<!-- <input type="button"  onclick="repeat(1,vn());"  /> -->
-<!-- <div id="repeater"></div> -->
+
+
 <br>
 <div >
-        <label  class="font">Midday:</label>
+    <label  class="font">Midday:</label>
 <!-- Selecting Midday Hours -->
 <!-- Midday:<br> -->
 <!-- <input type="radio"  value="Midday"> Midday:<br> -->
-<button class=" btn btn-default dropdown-toggle custom-select bg-color" type="button" data-toggle="dropdown">Midday 
+<div class=" btn btn-default dropdown-toggle custom-select bg-color" type="button" data-toggle="dropdown">Midday 
     <!-- <button class="btn btn-default dropdown-toggle">Midday -->
     <!-- <div class="custom-select"> -->
 
-            <div class="col-md-6  ">
-                    <label for="Reminder-choice">Reminders:</label>
-                        <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
+    <div class="col-md-6  ">
+        <label for="Reminder-choice">Reminders:</label>
+        <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
                                     <!-- <select  > -->
                                         
-                            <datalist id="Reminders-list">
-                                <option value="Drink Water">Drink Water</option>
-                                <option value="Take your Medicines">Take your Medicines</option>
-                                <option value="Eat">Eat</option>
-                                <option value="Feed Family">Feed Family</option>
-                                <option value="Take a 5 min walk">Take a 5 min walk</option>
-                                <option value="Take a Breather">Take a Breather</option>
-                                <option value="Take 30 mins for yourself">Take 30 mins for yourself</option>
-                                <option value="Say something positive about your day or yourself">Say something positive about your day or yourself</option>
-                                <option value="Walk your pet">Walk your pet</option>
-                                <option value="You are beautiful, smart & loved">You are beautiful, smart & loved</option>
-                                <option value="Other">Other</option>
-                            </datalist>
-                                    
-                </div> 
+            <datalist id="Reminders-list">
+                <option value="Drink Water">Drink Water</option>
+                <option value="Take your Medicines">Take your Medicines</option>
+                <option value="Eat">Eat</option>
+                <option value="Feed Family">Feed Family</option>
+                <option value="Take a 5 min walk">Take a 5 min walk</option>
+                <option value="Take a Breather">Take a Breather</option>
+                <option value="Take 30 mins for yourself">Take 30 mins for yourself</option>
+                <option value="Say something positive about your day or yourself">Say something positive about your day or yourself</option>
+                <option value="Walk your pet">Walk your pet</option>
+                <option value="You are beautiful, smart & loved">You are beautiful, smart & loved</option>
+                <option value="Other">Other</option>
+            </datalist>
+    </div> 
     <div class = "col-md-1  "> 
         <select >
         <option selected="selected" value="">Select Hour</option>
@@ -163,19 +160,21 @@
     
         </select>
     <!-- </div> -->
-<select >
-    <option selected="selected" value="">Select Minute</option>
-    <option value="00">00</option>
-    <option value="30">30</option>
+        <select >
+        <option selected="selected" value="">Select Minute</option>
+        <option value="00">00</option>
+        <option value="30">30</option>
    
-</select>
-<select id="selAmPm">
+        </select>
+        <select id="selAmPm">
         <option selected="selected" value="">AM/PM</option>
         <option value="AM">AM</option>
         <option value="PM">PM</option>
-    </select>
+        </select>
     </div>
-   
+    <br>
+    <!-- <input type="button"  onclick="repeat(1,va());"  /> -->
+    <!-- <div class="repeater"></div> -->
     
 </div> 
 
@@ -183,54 +182,55 @@
 <br>
 <div class="menu" >
         <label  class="font">Night:</label>
-<!-- Selecting Night Hours -->
+                                <!-- Selecting Night Hours -->
 <!-- Night:<br> -->
 <!-- <input type="radio"  value="Night"> Night:<br> -->
-<button class="btn btn-default dropdown-toggle bg-color" type="button" data-toggle="dropdown"> 
-        <div class="col-md-6 ">
-                <label for="Reminder-choice">Reminders:</label>
-                    <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
+<div class="btn btn-default dropdown-toggle bg-color" type="button" data-toggle="dropdown"> 
+    <div class="col-md-6 ">
+        <label for="Reminder-choice">Reminders:</label>
+        <input list="Reminders-list" id="Reminder-choice" name="Reminder-choice" />
                                 <!-- <select  > -->
                                     
-                        <datalist id="Reminders-list">
-                            <option value="Drink Water">Drink Water</option>
-                            <option value="Take your Medicines">Take your Medicines</option>
-                            <option value="Eat">Eat</option>
-                            <option value="Feed Family">Feed Family</option>
-                            <option value="Take a 5 min walk">Take a 5 min walk</option>
-                            <option value="Take a Breather">Take a Breather</option>
-                            <option value="Take 30 mins for yourself">Take 30 mins for yourself</option>
-                            <option value="Say something positive about your day or yourself">Say something positive about your day or yourself</option>
-                            <option value="Walk your pet">Walk your pet</option>
-                            <option value="You are beautiful, smart & loved">You are beautiful, smart & loved</option>
-                            <option value="Other">Other</option>
-                        </datalist>
+            <datalist id="Reminders-list">
+                <option value="Drink Water">Drink Water</option>
+                <option value="Take your Medicines">Take your Medicines</option>
+                <option value="Eat">Eat</option>
+                <option value="Feed Family">Feed Family</option>
+                <option value="Take a 5 min walk">Take a 5 min walk</option>
+                <option value="Take a Breather">Take a Breather</option>
+                <option value="Take 30 mins for yourself">Take 30 mins for yourself</option>
+                <option value="Say something positive about your day or yourself">Say something positive about your day or yourself</option>
+                <option value="Walk your pet">Walk your pet</option>
+                <option value="You are beautiful, smart & loved">You are beautiful, smart & loved</option>
+                <option value="Other">Other</option>
+            </datalist>
                                 
-            </div> 
-            <div class="col-md-6 ">
-    <select >
-        <option selected="selected" value="">Select Hour</option>
-        <option value="06">06</option>
-        <option value="07">07</option>
-        <option value="08">08</option>
-        <option value="09">09</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-   
-    </select>
-    <select >
-        <option selected="selected" value="">Select Minute</option>
-        <option value="00">00</option>
-        <option value="30">30</option>
-   
-    </select>
-    <select id="selAmPm">
-        <option selected="selected" value="">PM</option>
-        <!-- <option value="AM">AM</option> -->
-        <!-- <option value="PM">PM</option> -->
-    </select>
-</div> 
-    
+    </div> 
+    <div class="col-md-6 ">
+        <select >
+            <option selected="selected" value="">Select Hour</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select>
+        <select >
+            <option selected="selected" value="">Select Minute</option>
+            <option value="00">00</option>
+            <option value="30">30</option>
+        </select>
+        <select id="selAmPm">
+            <option selected="selected" value="">PM</option>
+            <!-- <option value="AM">AM</option> -->
+            <!-- <option value="PM">PM</option> -->
+        </select>
+    </div> 
+</div>
+<!-- <br>
+<input type="button"  onclick="repeat(1,vn());"  />
+<div id="repeater"></div> -->
 </div>
 
     <br>
@@ -239,7 +239,8 @@
 
 <div>
         <!-- <button class="button>">Submit</button> -->
-        <button type="button" class="btn btn-success">Submit</button>
+        <button type="button" class="btn btn-primary ">Clear</button>
+        <button type="button" class="btn btn-success button-space">Submit</button>
 </div>
 <br>
 <label>
