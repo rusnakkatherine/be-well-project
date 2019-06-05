@@ -55,12 +55,13 @@ h2 {
     padding: 10px;
     text-align: center;
     width: 61%;
-    height: 400px;
+    height: 380px;
 }
 
 .topics-title {
     font-weight: 500;
     font-size: 22px;
+    margin: 0px 0px 10px 0px;
 }
 
 li {
@@ -82,7 +83,7 @@ li:hover {
     margin: 5px;
     padding: 8px;
     font-size: 16px;
-    height: 400px;
+    height: 380px;
     width: 2500px;
 }
 
@@ -105,7 +106,7 @@ li:hover {
 }
 
 .question {
-    margin: 15px 0;
+    margin: 15px 0px 30px 0px;
     text-align: justify;
 }
 
