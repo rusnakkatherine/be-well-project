@@ -1,3 +1,12 @@
+/* Background */
+body {
+    background-color: #74CEB7;
+    padding: 8px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Style Header */
 h1 {
     text-align: center;
@@ -15,68 +24,112 @@ h2 {
   padding: 8px;
   font-size: 16px;
   border: 3px solid #2C858D;
-  margin: 20px;
+  margin: 20px 0px 20px 20px;
 }
 
-/* Style the search icon */
+/* Style the search icon background */
 #search-icon {
     background-color: #2C858D;
     border-top: 3px solid #2C858D;
     cursor: pointer;
     float: left;
-    height: 27px;
-    padding: 8px;
-    margin: 20px;
+    height: 46px;
+    width: 45px;
+    margin: 20px 20px 20px 0px;
     text-align: center;
-    width: 50px;
+    
+    
 }
 
 #search-icon img {
     width:40px;
-}
-
-/* Background */
-body {
-    background-color: #74CEB7;
-    padding: 8px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+    float: left;
+    
 }
 
 /* Style Top Discussion Board Topics Box */
 .topic-box {
     border: 3px solid #2C858D;
     background-color: whitesmoke;
-    margin: 20px;
-    padding: 8px;
+    margin: 5px 20px 20px 20px;
+    padding: 10px;
     text-align: center;
-    width: 19%;
+    width: 61%;
+    height: 400px;
 }
 
-.title {
+.topics-title {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 li {
     list-style-type: none;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
+    font-size: 18px;
+    margin-left: -40px;
+    cursor: pointer;
 }
 
 li:hover {
     color: #004056;
+    text-decoration: underline;
 }
 
+/* Style the Discussion Board Post */
 .discussion-box {
     border: 3px solid #2C858D;
     background-color: whitesmoke;
-    margin: 20px;
+    margin: 5px;
     padding: 8px;
-    text-align: center;
     font-size: 16px;
+    height: 400px;
+    width: 2500px;
+}
+
+.DB-title {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Style the Prompter Information */
+.prompter-info {
+    display: flex;
+}
+
+.prompter-profile {
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 50%;
+    border: 2px solid #2C858D;
+}
+
+.question {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* Style the responder's information */
+.responder-info {
+    display: flex;
+    align-content: flex-start;
+    height: 100%;   
+}
+
+.responder-profile {
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 10px 100px;
+    border-radius: 50%;
+    border: 2px solid #2C858D;   
+}
+
+.answer {
+    margin: 15px 0;
+    text-align: justify;
+}
+/* Style to align DB topics with individual DB post */
+.content {
     display: flex;
     flex-direction: row;
 }
