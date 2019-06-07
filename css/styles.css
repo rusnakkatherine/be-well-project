@@ -83,13 +83,11 @@ h2{
     position: absolute;
     z-index: 1;
     height: 50%;
-    width: inherit;    
+    width: 90%;    
     top: 25%;
+    left: 5%;
     background-color: rgba(0, 64, 86, 0.7);
     opacity: 0;
-    display: flex;
-    margin: 0;
-    
 }
 
 .overlay-container:hover .overlay{
@@ -104,8 +102,8 @@ h2{
     margin: 0 auto;
     color: white;
     padding: 5%;
-    /* display: flex; */
     align-self: center;
+    justify-content: center;
 }
 
 /* Responsive Code */
