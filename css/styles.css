@@ -1,12 +1,24 @@
 body{
     background-color: #74ceb7;
 }
+h2{
+    font-size: 3em;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.align-self-center{
+    align-self: center;
+}
 
 .container{
     background-color: rgba(225, 225, 225, 0.5);
     /* background-image: radial-gradient( rgba(225, 225, 225, 0.6), rgba(225, 225, 225, 0.1); */
     padding: 75px
 }
+
 
 .text-align-center{
     text-align: center;
@@ -62,6 +74,8 @@ body{
     height: 100%;
     width: 100%;
     position: relative;
+    padding: 0;
+    
     /* background-color: white; */
 }
 
@@ -69,18 +83,19 @@ body{
     position: absolute;
     z-index: 1;
     height: 50%;
-    width: 100%;    
+    width: inherit;    
     top: 25%;
     background-color: rgba(0, 64, 86, 0.7);
     opacity: 0;
     display: flex;
+    margin: 0;
     
 }
 
 .overlay-container:hover .overlay{
  opacity: 1;
  transition: .5s ease;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.205), 0 6px 20px 0 rgba(0, 0, 0, 0.315);
 }
 
 
@@ -88,27 +103,116 @@ body{
     font-size: 2.5em;
     margin: 0 auto;
     color: white;
-    padding: 10%;
+    padding: 5%;
     /* display: flex; */
     align-self: center;
 }
 
+/* Responsive Code */
 
 
-@media screen and (max-width: 767px) {    
-h1{
-    font-size: 2em;
-}
-h2{
-    font-size: 1.75em;
-}
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     /* Typography  */
+     h2{
+         font-size: 1.5em;
+     }
+     .main-paragraph{
+        font-size: .5em;
+    }
 
-.main-paragraph{
-    font-size: 1.25em;
-}
+    .gen-paragraph{
+        font-size: .5em;
+    }
+    .text-overlay{
+            font-size: 1em;
+        }
+    }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    /* Typography */
+     h2{
+        font-size: 1.75em;
+        }
 
-.gen-paragraph{
-    font-size: 1em;
-}
-}
+    .main-paragraph{
+        font-size: .75em;
+        }
 
+    .gen-paragraph{
+        font-size: .75em;
+        }
+    
+    .text-overlay{
+        font-size: 1em;
+        }
+
+    }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    /* Typography */
+    h2{
+        font-size: 2em;
+    }
+
+    .main-paragraph{
+        font-size: 1em;
+    }
+
+    .gen-paragraph{
+        font-size: 1em;
+    }
+
+    .text-overlay{
+        font-size: 1.25em;
+    }
+    } 
+
+    /* layout */
+     /* For mobile phones: */
+ 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    /* Typography */
+
+    h2{
+        font-size: 2.25em;
+    }
+
+    .main-paragraph{
+        font-size: 1.25em;
+    }
+
+    .gen-paragraph{
+        font-size: 1.25em;
+    }
+
+    .text-overlay{
+        font-size: 1.5em;
+    }
+    }   
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Typography */
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    .main-paragraph{
+        font-size: 1.5em;
+    }
+
+    .gen-paragraph{
+        font-size: 1.5em;
+    }
+
+    .text-overlay{
+        font-size: 2em;
+    }
+    
+    }
