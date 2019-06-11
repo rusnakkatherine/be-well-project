@@ -17,14 +17,27 @@
 
 <body>
 
+
+
     <div class="container-fluid">
         <div class="row">
-            <img src="images/logo.png" class="logo"  alt="picture of an umbrella">
+            <nav class="navbar-toggle">
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#004056" stroke-width="5"></path>
+                            <path d="M0,14 30,14" stroke="#004056" stroke-width="5"></path>
+                            <path d="M0,23 30,23" stroke="#004056" stroke-width="5"></path>
+                        </svg>
+                    </a>
+                </span>
+                <img src="images/logo.png" id="main-logo" class="logo" alt="picture of an umbrella">
         </div>
-    </div>
-    
 
-    
+    </div>
+
+
+
     <div class="navbar container-fluid">
         <ul>
             <li><a href="index.html"><i class="fa fa-home icon"></i>Home</a></li>
@@ -41,11 +54,13 @@
                     <li><a href="https://www.co.fresno.ca.us/departments/behavioral-health"><i
                                 class="fa fa-info-circle"></i>Fresno County Department of Mental Health</a></li>
 
-                    <li><a href="https://wscog.org/counseling-center/"><i class="fa fa-info-circle"></i>Westside Church
+                    <li><a href="https://wscog.org/counseling-center/"><i class="fa fa-info-circle"></i>Westside
+                            Church
                             of God</a></li>
                     <hr>
 
-                    <h6><i class="fa fa-angle-left na-resources"></i class="national-resources">NATIONAL RESOURCES<i class="fa fa-angle-right"></i>
+                    <h6><i class="fa fa-angle-left na-resources"></i class="national-resources">NATIONAL RESOURCES<i
+                            class="fa fa-angle-right"></i>
                     </h6>
 
                     <li><a href="https://www.thetrevorproject.org/"><i class="fa fa-info-circle"></i>The Trevor
@@ -56,39 +71,51 @@
                     <li><a href="https://www.betterhelp.com/"><i class="fa fa-info-circle"></i>Better Help</a></li>
                 </ul>
             </li>
-            
+
         </ul>
     </div>
 
-
-    <!-- <div class="navbar">
+    <!-- <nav class="navbar-toggle">
         <span class="open-slide">
-            <a href="#">
+            <a href="#" onclick="openSlideMenu()">
                 <svg width="30" height="30">
                     <path d="M0,5 30,5" stroke="#004056" stroke-width="5"></path>
                     <path d="M0,14 30,14" stroke="#004056" stroke-width="5"></path>
                     <path d="M0,23 30,23" stroke="#004056" stroke-width="5"></path>
                 </svg>
             </a>
-        </span>
-    </div> -->
+        </span> -->
+
+
+    <div id="side-menu" class="side-nav">
+        <ul>
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="Discussion-Board.html">Discussion Board</a></li>
+
+            <li><a href="Wellness-Reminders.html">Wellness Reminders</a></li>
+
+            <li><a href="Resources.html">Resources</a></li>
+        </ul>
+    </div>
 
 
 
 
 
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
 
-
-
-
-
-
-
-
-
-
-
-
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
 
 
 
@@ -104,7 +131,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-       
+
 </body>
 
 </html>

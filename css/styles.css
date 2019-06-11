@@ -19,11 +19,11 @@
     margin-left: 15px;
 }
 
-body{
+/* body{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 .navbar{
     padding: 0;
@@ -51,7 +51,7 @@ hr{
     padding: 25px;
     position: relative;
     background-color:  #2C858D;
-    width: 301px;
+    width: 250px;
     border-top: 1px solid  #74CEB7;
 }
 
@@ -69,6 +69,7 @@ hr{
 .navbar ul ul li{
     background-color: #74CEB7;
     border-top: 1px solid #2C858D;
+    /* width: 150px; */
 }
 
 .navbar ul ul li a{
@@ -93,11 +94,84 @@ hr{
 
 @media (max-width:600px){
     .navbar ul li{
-        width: 175px;
+        display: none;
         
     }
 }
 /* END OF INDEX.HTML */
+
+
+
+
+
+
+
+
+
+/* beginning of toggle side nav */
+
+
+.side-nav{
+    height 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2C858D;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav ul{
+    list-style: none;
+}
+
+.side-nav a{
+    padding: 10px 10px 40px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #C9FFD5;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: #FFFFCB;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+@media (min-width:600px){
+    .open-slide{
+        display: none;
+        
+    }
+}
+ 
+@media(max-width:600px){
+    .logo{
+        margin-left: 190px;
+    }
+} 
+
+
+/* end of toggle side nav */
+
+
+
+
+
 
 
 
