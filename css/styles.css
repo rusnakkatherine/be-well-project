@@ -1,5 +1,6 @@
 /* BEGINNING OF INDEX.HTML */
 
+
 .logo{
     height: 95px;
     margin-left: 25px;
@@ -21,6 +22,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar{
@@ -37,6 +39,7 @@ h6{
     /* color: #C9FFD5; */
     color: #004056;
     padding: 15px;
+    border-top: 1px solid #2C858D;
 }
 
 hr{
@@ -48,7 +51,7 @@ hr{
     padding: 25px;
     position: relative;
     background-color:  #2C858D;
-    width: 280px;
+    width: 301px;
     border-top: 1px solid  #74CEB7;
 }
 
@@ -60,15 +63,25 @@ hr{
     height: 115px;
     overflow: scroll;
     border-top: 1px solid #74CEB7;
+    background-color: #74CEB7;
+}
+
+.navbar ul ul li{
+    background-color: #74CEB7;
+    border-top: 1px solid #2C858D;
+}
+
+.navbar ul ul li a{
+    color: #004056;
 }
 
 
 .navbar ul li a{
-    color: #C9FFD5;
+    color: #FFF;
     text-decoration: none;
     font-size: 20px;
-    
 }
+
 
 .fa{
     margin-right: 10px;
