@@ -61,7 +61,7 @@ hr{
 
 .navbar ul ul{
     height: 115px;
-    overflow: scroll;
+    overflow: auto;
     border-top: 1px solid #74CEB7;
     background-color: #74CEB7;
 }
@@ -122,6 +122,7 @@ hr{
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
+    opacity: 0.8;
 }
 
 .side-nav ul{
@@ -149,6 +150,13 @@ hr{
     margin-left: 50px;
 }
 
+.side-nav ul ul{
+    height: 115px;
+    overflow: auto;
+    border-top: 1px solid #74CEB7;
+    background-color: #74CEB7;
+}
+
 
 
 
@@ -158,6 +166,8 @@ hr{
         
     }
 }
+
+
  
 @media(max-width:600px){
     .logo{
