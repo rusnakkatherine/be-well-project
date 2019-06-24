@@ -111,8 +111,8 @@ hr{
 /* beginning of toggle side nav */
 
 
-.side-nav{
-    height 100%;
+.side-nav {
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -224,7 +224,6 @@ form div{
 
 
 /* END OF PHP: SUBMISSION FORM */
-
 
 
 
