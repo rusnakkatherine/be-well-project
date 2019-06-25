@@ -136,7 +136,7 @@ hr{
     font-size: 22px;
     color: #C9FFD5;
     display: block;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .side-nav a:hover{
